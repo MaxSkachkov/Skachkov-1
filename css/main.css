@@ -1,0 +1,229 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+   a { 
+    text-decoration: none; 
+       color: #fff;
+   } 
+
+.header {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #f7f7f7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo_img {
+    background: url(../img/logo.svg);
+    display: block;
+    width: 58px;
+    height: 58px;
+    margin-right: 20px;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #5528FF;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+}
+
+.nav > li {
+    margin-left: 15px;
+}
+
+.nav > li > a {
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+.nav_btn {
+    background-color: #5528FF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.title_main {
+    font-size: 55px;
+    font-weight: 700;
+    color: #5528FF;
+}
+
+h2 {
+    color: #5528FF;
+}
+
+.text-main {
+    font-size: 32px;
+    color: #4f4f4f;
+    line-height: 1.5;
+}
+
+.button {
+    background-color: #5528FF;
+    border-radius: 10px;
+    padding: 10px 45px;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+}
+
+.page {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.page-top {
+    border-top: 1px solid #C2C2C2;
+}
+
+.page h2 {
+    position: absolute;
+    top: -24px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #fff;
+    padding: 5px 15px;
+    color: #5528FF;
+}
+
+.services {
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+}
+
+.services-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.services-img {
+    flex-basis: 120px;
+    text-align: center;
+}
+
+.services_text {
+    flex-basis: calc(100% - 120px);
+}
+
+.services h3 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #5528FF;
+}
+
+.services p {
+    font-size: 16px;
+    color: #4f4f4f;
+    line-height: 1.5;
+}
+
+.clients {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 25%);
+    text-align: center;
+    grid-row-gap: 40px;
+    background-color: #5528FF;
+}
+
+.team {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 33%);
+    grid-row-gap: 40px;
+}
+
+.team-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #4f4f4f;
+}
+
+.team h3 {
+    color: #5528FF;
+}
+
+.team-item img {
+    margin-right: 20px;
+}
+
+.team-item > div {
+    flex-basis: calc(100% - 100px);
+}
+
+.social {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+}
+
+.social > li {
+    margin-left: 15px;
+}
+
+.social > li > a {
+    text-decoration: none;
+    color: #5528FF;
+    font-size: 24px;
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dev > a {
+    color: #5528FF;
+    font-weight: 600;
+}
+
+.up {
+    margin-left: 50px;
+    position: fixed;
+    bottom: 65px;
+}
